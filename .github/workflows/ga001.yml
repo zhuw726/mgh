@@ -2,7 +2,7 @@ name: Fist workflow
 on: workflow_dispatch
 jobs:
   first-job: 
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print greeting
         run: echo 'hello world'
